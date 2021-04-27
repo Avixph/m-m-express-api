@@ -1,0 +1,9 @@
+{
+  "name": "m-m-express-api",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "dependencies": {
+    "mongoose": "^5.12.5"
+  }
+}
