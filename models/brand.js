@@ -8,5 +8,4 @@ const Brand = new Schema(
   },
   { timestamps: true }
 );
-
 module.exports = mongoose.model("brands", Brand);

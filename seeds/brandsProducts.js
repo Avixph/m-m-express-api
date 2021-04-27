@@ -30,7 +30,6 @@ const main = async () => {
     url: "https://www.stumptowncoffee.com",
   });
   brand5.save();
-
   const products = [
     {
       title: "Apple AirPods",
@@ -76,14 +75,12 @@ const main = async () => {
       brand: brand5._id,
     },
   ];
-
   await Product.insertMany(products);
-  console.log("Many products created with brand!");
+  console.log("Created many products");
 };
 
 const run = async () => {
   await main();
   db.close();
 };
-
 run();
