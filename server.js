@@ -27,6 +27,7 @@ app.get("/products/:id", async (req, res) => {
     if (!product) {
       throw Error("Could not find product.");
     }
+    res.json(product);
   } catch (e) {
     console.log(e);
     res.send()
